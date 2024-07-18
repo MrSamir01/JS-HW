@@ -82,3 +82,12 @@ if (userChoose1 === "бумага" && userChoose2 === "бумага") {
 } else {
   alert("Не пишете всякое!");
 }
+//Задача-9
+
+let num = 7;
+
+if (num === 7) {
+  console.log("Seven");
+} else {
+  console.log("Not Seven");
+}
