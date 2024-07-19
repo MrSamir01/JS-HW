@@ -84,9 +84,9 @@ if (userChoose1 === "бумага" && userChoose2 === "бумага") {
 }
 //Задача-9
 
-let num = 7;
+let num2 = 7;
 
-if (num === 7) {
+if (num2 === 7) {
   console.log("Seven");
 } else {
   console.log("Not Seven");
