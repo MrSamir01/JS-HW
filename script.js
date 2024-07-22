@@ -130,16 +130,17 @@
 // console.log(reversedStrFor);
 
 //Задача-6
-// let width = 14;
-// let height = 5;
+let resh = 10;
+let madoPro = 6;
+for (let alfa = 0; alfa < madoPro; alfa++) {
+  if (alfa === 0 || alfa === madoPro - 1) {
+    console.log("*".repeat(resh));
+  } else {
+    console.log("*" + "-".repeat(resh - 2) + "*");
+  }
+  console.log("\n");
+}
 
-// for (let i = 0; i < height; i++) {
-//   if (i === 0 || i === height - 1) {
-//     console.log("*".repeat(width));
-//   } else {
-//     console.log("*" + "-".repeat(width - 2) + "*");
-//   }
-// }
 
 //Задача-7
 // let str = "";
