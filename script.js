@@ -1,6 +1,6 @@
 //Задача-1
 
-let num = 10;
+let num = 12;
 
 if (num === 10) {
   console.log("правильно");
