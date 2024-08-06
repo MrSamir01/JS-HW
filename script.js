@@ -21,7 +21,7 @@
 //   allIds: ["post1", "post2"],
 // };
 
-//Поверхности:
+//Поверхностный:
 // const copyOfPosts = { ...posts };
 // console.log(copyOfPosts);
 
