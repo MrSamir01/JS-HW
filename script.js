@@ -77,7 +77,7 @@ cartochki.forEach((item) => {
   socSeti.style.right = "-100px";
   const title = document.createElement("p");
   title.textContent = item.title;
-  title.style.fontSize = "25px";
+  title.style.fontSize = "25px";  
 
   const button = document.createElement("button");
   const a = document.createElement("a");
