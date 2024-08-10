@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(53, 81, 184);
+}
+#big-container {
+  background-color: white;
+  margin: 35px;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  color: blue;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+#input-container {
+  margin-top: 30px;
+}
+
+#input {
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+#input::placeholder {
+  font-size: 15px;
+  padding-left: 1px;
+}
+#button {
+  border: none;
+  width: 70px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: rgb(216, 46, 74);
+  color: white;
+  font-size: 18px;
+}
+
+li {
+  background-color: rgb(53, 81, 184);
+  margin-top: 25px;
+  height: 50px;
+  width: 600px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+li::marker {
+  content: " ";
+}
+#form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.button1 {
+  border: none;
+  background-color: coral;
+  color: white;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 15px;
+}
