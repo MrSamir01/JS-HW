@@ -97,3 +97,11 @@ body {
   left: 830px;
   display: none;
 }
+#div {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+#h1 {
+  color: black;
+}
