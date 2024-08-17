@@ -9,7 +9,7 @@ const counter = document.getElementById("counter");
 const message = document.getElementById("message");
 const OK = document.getElementById("OK");
 let interval = null;
-let isRunning = false;
+let isRunning = fals+e;
 let sek, min;
 
 startBtn.addEventListener("click", () => {
