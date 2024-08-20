@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  background-color: coral;
+  padding: 10px;
+  width: 130px;
+  font-weight: 500;
+  height: 50px;
+  font-size: 20px;
+}
+input {
+  border: none;
+  width: 150px;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  height: 30px;
+  color: black;
+}
+body {
+  padding: 70px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#big-container {
+  background-color: rgb(53, 81, 184);
+  padding: 50px;
+  border-radius: 15px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+#input-div {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+#seconds-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+#minutes-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+#user-container {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+}
+
+#message {
+  display: none;
+  background-color: white;
+  z-index: 100;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 20px;
+  padding-top: 20px;
+  padding-left: 80px;
+  position: fixed;
+  top: 10%;
+  left: 35%;
+  right: 35%;
+  width: 350px;
+}
+#message > button {
+  background-color: rgb(53, 81, 184);
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 0;
+}
+#message > h3 {
+  color: black;
+  font-size: 25px;
+}
+#pause-btn {
+  background-color: red;
+  position: absolute;
+  left: 830px;
+  display: none;
+}
+#div {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+#h1 {
+  color: black;
+}
