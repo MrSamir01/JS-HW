@@ -95,17 +95,38 @@ li::marker {
 
 #vibor {
   display: none;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   z-index: 100;
   border-radius: 15px;
   border: 2px solid blue;
   padding: 15px;
   position: fixed;
-  top: 40%;
-  bottom: 35%;
+  /* top: 40%; */
+  /* bottom: 35%; */
   left: 35%;
   right: 35%;
-  width: 350px;
+  width: 370px;
+  animation-name: bounceTop;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+@keyframes bounceTop {
+  0% {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-70%);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-80%);
+  }
+  100% {
+    transform: translateY(-70%);
+  }
 }
 #vibor > h3 {
   font-size: 20px;
@@ -114,6 +135,7 @@ li::marker {
   padding-top: 25px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
 }
 #yes {
