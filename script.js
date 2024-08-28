@@ -70,6 +70,7 @@ function renderTodos(todosArray = []) {
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
+    checkbox.style.cursor = "pointer"
     checkbox.classList.add("checkbox");
     checkbox.checked = element.completed;
     checkbox.addEventListener("change", () => {
@@ -77,6 +78,7 @@ function renderTodos(todosArray = []) {
       updateTodo(element.id, element.completed);
     });
 
+    
     const deleteButton = document.createElement("button");
     deleteButton.classList.add("button1");
     deleteButton.textContent = "Delete";
@@ -134,3 +136,14 @@ async function deleteTodo(id) {
   } catch (error) {}
   location.reload();
 }
+
+
+
+const object = {
+  name:"Samir",
+  age: 13,
+  city: 123
+}
+
+const {age} =object
+ 
